@@ -8,7 +8,7 @@ interface ILogoProps {
 
 const Logo: React.FunctionComponent<ILogoProps> = (props = {}) => (
     <img
-        src={ logos.prism }
+        src="https://i.ibb.co/LdnvfRT/logo.png" 
         height={ props.size || 50 }
     />
 );

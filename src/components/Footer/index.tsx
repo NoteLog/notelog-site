@@ -21,17 +21,11 @@ const SocialLink: React.FunctionComponent<ISocialLinkProps> = (props) => (
 
 const SocialLinks: React.FunctionComponent = () => (
     <div>
-        <SocialLink link={{ title: "GitHub", href: "https://github.com/PrismLang" }}>
+        <SocialLink link={{ title: "GitHub", href: "https://github.com/noteLog" }}>
             <FaGithub />
         </SocialLink>
-        <SocialLink link={{ title: "Twitter", href: "https://twitter.com/PrismLang" }}>
+        <SocialLink link={{ title: "Twitter", href: "https://twitter.com/tansawit" }}>
             <FaTwitter />
-        </SocialLink>
-        <SocialLink link={{ title: "Reddit", href: "https://reddit.com/r/PrismLang" }}>
-            <FaReddit />
-        </SocialLink>
-        <SocialLink link={{ title: "StackOverflow", href: "https://stackoverflow.com/questions/tagged/prismlang" }}>
-            <FaStackOverflow />
         </SocialLink>
     </div>
 );
@@ -62,10 +56,10 @@ const MetaFooter: React.FunctionComponent = () => (
         fontSize: ".8em",
     }}>
         <div>
-            Coded with ❤ &amp; ☕ by <a href="https://traction.one" target="__blank">Traction</a>
+            Project by <a href="https://tansawit.me" target="__blank">tansawit</a>
         </div>
         <div>
-            &copy; Sankarsan Kampa
+            &copy; Sawit Trisirisatayawong
         </div>
     </div>
 );

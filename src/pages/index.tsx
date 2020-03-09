@@ -36,16 +36,21 @@ class IndexPage extends React.PureComponent {
                     padding: 25,
                     fontSize: "2em",
                 }}>
-                    PRISM
+                    noteLog
                 </div>
                 <div css={{
                     maxWidth: 500,
                     padding: 25,
                 }}>
-                    Prism is a language that was born in the wild and raised in the darkness
-                    by a schizophrenic monkey. It is held together by duct tape and cracked
-                    asbestos-filled spackle. But it has got <code>character</code>; and in
-                    this world, that's enough.
+                    NoteLog aims to solve a problem I often have: having
+                    think <b>where</b> to search for something in addition to <b>what</b> to search for to best find it.
+                    It will aggregate data from all the places I store information,
+                    allowing me to search through all of them in a single query, a single search bar.
+                </div>
+                <div css={{
+                    padding: 10
+                }}>
+                    <a href="https://search.notelog.app" target="__blank"><button>Try the Prototype (Web)</button></a>
                 </div>
             </div>
 
@@ -59,57 +64,8 @@ class IndexPage extends React.PureComponent {
                 padding: 25,
                 minHeight: "50vh",
             }}>
-                <h2>Downloads</h2>
-                <p>
-                    Prism is currently in prototype. It will soon be released and made open-source.
-                    But if you're someone who lives on the edge and is very curious to try it out,
-                    you can download the prototype version for your platform and start using it.
-                </p>
-                <p>
-                    The binaries are updated on a regular basis. Keep track of the release date and
-                    use these installers to update Prism every time a new version comes out to stay
-                    on the latest version of Prism and get access to all latest features.
-                </p>
-                <p>
-                    <strong>
-                        To install Prism in your computer, run the installer as superuser (Administrator).
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        {
-                            this.state.lastBuildDate
-                            ? "Last Updated on " + this.state.lastBuildDate.toDateString()
-                            : null
-                        }
-                    </strong>
-                </p>
-                <div css={{
-                    marginTop: 25,
-                    marginBottom: 25,
-                    display: "flex",
-                    flexWrap: "wrap",
-                    justifyContent: "center",
-                }}>
-                    {
-                        installers.map((installer: any, i: number) => (
-                            <a key={ i } href={ installer.link } css={{
-                                margin: 10,
-                            }}>
-                                <button css={{
-                                    // backgroundColor: installer.os === getPlatform() ? "#9f82fe" : "darkgrey",
-                                }}>
-                                    { installer.os }
-                                </button>
-                            </a>
-                        ))
-                    }
-                </div>
-                <p>
-                    If you don't prefer the installer, you can grab the Prism binaries from
-                    <a href="https://github.com/PrismLang/binaries" target="_blank" title="Prism binaries"> here </a>
-                    and run it from wherever you like.
-                </p>
+                <h2>Background</h2>
+                <p>More Information Coming Soon!</p>
             </div>
         </Layout>
     );

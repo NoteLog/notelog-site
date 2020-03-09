@@ -2,9 +2,9 @@
 
 module.exports = {
     siteMetadata: {
-        title: "Prism Programming Language",
-        description: "Prism is a simple programming language aimed at beginners!",
-        siteUrl: "https://prism.traction.com",
+        title: "Home - noteLog",
+        description: "A way to search through all your information store in one place",
+        siteUrl: "https://notelog.app",
     },
     plugins: [
         "gatsby-plugin-emotion",

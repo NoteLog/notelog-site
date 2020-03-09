@@ -30,7 +30,7 @@ const HeaderLogo: React.FunctionComponent = () => (
                     fontSize: "1.2em",
                     lineBreak: "none",
                     letterSpacing: 5,
-                }}>Prism</div>
+                }}>noteLog</div>
               </Link>
         }
     </div>
