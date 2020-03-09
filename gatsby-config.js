@@ -12,24 +12,8 @@ module.exports = {
         {
             resolve: "gatsby-source-filesystem",
             options: {
-              name: "learn",
-              path: __dirname + "/content/learn/",
-              ignore: [ "**/\.*" ],
-            },
-        },
-        {
-            resolve: "gatsby-source-filesystem",
-            options: {
               name: "docs",
               path: __dirname + "/content/docs/",
-              ignore: [ "**/\.*" ],
-            },
-        },
-        {
-            resolve: "gatsby-source-filesystem",
-            options: {
-              name: "packages",
-              path: __dirname + "/content/packages/",
               ignore: [ "**/\.*" ],
             },
         },
